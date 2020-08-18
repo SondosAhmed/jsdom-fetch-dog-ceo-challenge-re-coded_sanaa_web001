@@ -4,3 +4,4 @@ document.addEventListener("DOMContentLoaded", () => {
 const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
 fetch (imgUrl).then(response => response.json);
 });
+}
